@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --background-main: #f1f4f8;
+  --background-white: #fff;
+  --clr-primary: #3c7cf2;
+  --clr-primary2: #5a90f6;
+  --clr-primary3: #e6ebf9;
+  --line-lead: 1.3rem;
+  --heading-font: 2rem;
+  --border-radius: 0.3rem;
+  --letter-tight: 0.2rem;
+  --letter-tight2: 0.1rem;
+  --transition: all 0.2s ease-in-out;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  background: var(--background-main);
+  text-align: center;
+  margin: 0;
+  padding: 3rem;
+}
+
+.title h2 {
+  font-size: var(--heading-font);
+  margin-bottom: 0.2rem;
+}
+
+.underline {
+  border-bottom: 3px solid var(--clr-primary);
+  width: 90px;
+  margin: 0 auto 4rem;
+}
+
+.content {
+  background: var(--background-white);
+  border-radius: var(--border-radius);
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  width: 80vw;
+  max-width: 600px;
+}
+.images {
+  position: relative;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1.5rem;
+}
+
+#image_main {
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.images::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: var(--clr-primary);
+  position: absolute;
+  border-radius: 50%;
+  top: -0.15rem;
+  right: -0.25rem;
+}
+
+.images::after {
+  content: "\f10e";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  background: var(--clr-primary);
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 1rem;
+  display: grid;
+  align-content: center;
+  border-radius: 50%;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  letter-spacing: var(--letter-tight2);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.designation {
+  text-transform: capitalize;
+  color: var(--clr-primary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: var(--letter-tight);
+  margin-bottom: 0.7rem;
+}
+
+.info {
+  font-size: 0.8rem;
+  color: #919090;
+  letter-spacing: 0.05rem;
+  line-height: var(--line-lead);
+  margin-bottom: 1rem;
+}
+
+.toggle i {
+  color: var(--clr-primary2);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+}
+
+.toggle {
+  margin-bottom: 0.3rem;
+}
+
+.toggle i:hover {
+  color: var(--clr-primary);
+  background: var(--clr-primary3);
+  border-radius: 0.1rem;
+}
+
+.surprise {
+  border: 2px solid var(--clr-primary2);
+  padding: 5px 10px;
+  border-radius: var(--border-radius);
+  letter-spacing: var(--letter-tight2);
+  color: var(--clr-primary2);
+  background: var(--clr-primary3);
+  transition: var(--transition);
+}
+.surprise:hover {
+  background-color: var(--clr-primary);
+  color: var(--background-white);
+}
