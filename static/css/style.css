@@ -134,6 +134,7 @@ body {
   color: var(--clr-primary);
   background: var(--clr-primary3);
   border-radius: 0.1rem;
+  cursor: pointer;
 }
 
 .surprise {
@@ -144,6 +145,7 @@ body {
   color: var(--clr-primary2);
   background: var(--clr-primary3);
   transition: var(--transition);
+  cursor: pointer;
 }
 .surprise:hover {
   background-color: var(--clr-primary);

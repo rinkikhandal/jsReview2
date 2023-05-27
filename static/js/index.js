@@ -10,14 +10,14 @@ const images = [
     "One of the most important qualities of the best boss is leadership qualities. Don't use plagiarized sources. Get your custom essay on. He/she can lead teamwork in the right way, so he/she must organize the members of the team and divide the work among them depending on their skills.",
   ],
   [
-    "andrea piacquadio",
-    "web developer",
-    "Back-end web developers create the website's structure, write code, and verify the code works. Their responsibilities also may include managing access points for others who need to manage a website's content. Front-end web developers work on the visual part of the website",
-  ],
-  [
     "john doe",
     "intern",
     "In my internship, I was able to interact with the council and board members who enabled me to know and learn a lot in various areas. This was mainly due to bountiful experience they have and their willingness to assist me to learn and know more as a young person.",
+  ],
+  [
+    "andrea piacquadio",
+    "web developer",
+    "Back-end web developers create the website's structure, write code, and verify the code works. Their responsibilities also may include managing access points for others who need to manage a website's content. Front-end web developers work on the visual part of the website",
   ],
 ];
 const imgChange = document.querySelector("img");
